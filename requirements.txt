@@ -1,10 +1,13 @@
-djangorestframework==3.11.0
-Django==3.0.4
-Pygments==2.6.1
+djangorestframework==3.15.2
+Django==4.2.15
+Pygments==2.15.0
 Markdown==3.2.1
 coreapi==2.3.3
 psycopg2-binary==2.8.4
 dj-database-url==0.5.0
-gunicorn==20.0.4
+gunicorn==22.0.0
 whitenoise==5.0.1
 PyYAML==5.3.1
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
